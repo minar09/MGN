@@ -73,7 +73,8 @@ if __name__ == '__main__':
     fts['naked'] = ft
 
     # Choose any garment type
-    garment_type = 'Pants'
+    # garment_type = 'Pants'
+    garment_type = 'TShirtNoCoat'
     # Randomly pick from the digital wardrobe
     index = np.random.randint(0, len(gar_dict[garment_type]))
 
