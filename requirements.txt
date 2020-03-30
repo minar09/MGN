@@ -1,4 +1,4 @@
-tensorflow-gpu==1.13.2
+tensorflow-gpu>=1.13.2
 scikit-learn
 git+git://github.com/pmh47/dirt.git
 git+git://github.com/MPI-IS/mesh.git@1761d544686b3735991954947a8befa759891eb4
