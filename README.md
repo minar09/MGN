@@ -1,3 +1,6 @@
+# Disclaimer
+This is just a modified working version of [MultiGarmentNetwork](https://github.com/bharat-b7/MultiGarmentNetwork) github repository, for python 2.7. Please visit the original repository for details.
+
 # MultiGarmentNetwork
 Repo for **"Multi-Garment Net: Learning to Dress 3D People from Images, ICCV'19"**
 
@@ -14,6 +17,8 @@ This dataset contains scans, SMPL registration, texture_maps, segmentation_maps 
 
 ## Pre-requisites for running MGN
 The code has been tested in python 2.7, Tensorflow 1.13
+
+Run `pip install -r requirements.txt`
 
 Download the neutral SMPL model from http://smplify.is.tue.mpg.de/ and place it in the `assets` folder.
 ```
