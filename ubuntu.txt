@@ -1,1 +1,3 @@
-sudo apt-get install freeglut3-dev
+sudo apt install gcc g++
+sudo apt install libboost-dev
+sudo apt install freeglut3-dev
