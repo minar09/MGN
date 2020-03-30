@@ -18,7 +18,9 @@ This dataset contains scans, SMPL registration, texture_maps, segmentation_maps 
 ## Pre-requisites for running MGN
 The code has been tested in python 2.7, Tensorflow 1.13
 
-Run `pip install -r requirements.txt`
+First run the commands from `ubuntu.txt`
+
+Then, run `pip install -r requirements.txt`
 
 Download the neutral SMPL model from http://smplify.is.tue.mpg.de/ and place it in the `assets` folder.
 ```
