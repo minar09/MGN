@@ -22,6 +22,8 @@ First run the commands from `ubuntu.txt`
 
 Then, run `pip install -r requirements.txt`
 
+Finally, install CUDA toolkit for tensorflow, e.g. [NVIDIA-CUDA](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1804&target_type=deblocal).
+
 Download the neutral SMPL model from http://smplify.is.tue.mpg.de/ and place it in the `assets` folder.
 ```
 cp <path_to_smplify>/code/models/basicModel_neutral_lbs_10_207_0_v1.0.0.pkl assets/neutral_smpl.pkl
