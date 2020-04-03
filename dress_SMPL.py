@@ -115,11 +115,12 @@ if __name__ == '__main__':
     fts['naked'] = ft
 
     # Choose any garmet type as source
-    # garment_type = 'TShirtNoCoat'
-    garment_type = 'Pants'
+    garment_type = 'TShirtNoCoat'
+    # garment_type = 'Pants'
     # index = np.random.randint(0, len(gar_dict[garment_type]))   ## Randomly pick from the digital wardrobe
     # path = split(gar_dict[garment_type][index])[0]
-    path = '/media/minar/Galaxy/Datasets/Multi-Garment_dataset/125611508622317'
+    # path = '/media/minar/Galaxy/Datasets/Multi-Garment_dataset/125611508622317'
+    path = '/media/minar/Galaxy/Datasets/Multi-Garment_dataset/125611511816959'
 
     garment_org_body_unposed = load_smpl_from_file(
         join(path, 'registration.pkl'))
